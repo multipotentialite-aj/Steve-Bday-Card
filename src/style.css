@@ -1,6 +1,6 @@
 
 /*DEFAULT STYLES FOR DISPLAY*/
-*,*:before,*:after{
+*,*:before,*:after {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
@@ -8,28 +8,25 @@
 	margin:0;
 	padding:0;
 }
-html,body{
+html, body {
   height:100%;
 }
 
-.icon{
+.icon {
 	position:absolute;
 	top:230px;
 	left:65%;
 	right:0;
-	bottom:0px;
-	
-	
+	bottom:0px;	
 }
 
 /*THE ARTIFAKT ;) */
-.cuppa{
+.cuppa {
   content:"";
 	width:4em;
 	height:4em;
 	background:rgba(105,160,190,1);
 	border-radius:0 0 35% 35%;
- 
 }
 .cuppa:before{
 	content:"";
@@ -54,9 +51,11 @@ html,body{
   border-radius:50%
 }
 
-
 body {
   background:#cc9;
+}
+.note-monster {
+    font-size: 10px;
 }
 
 .mittu {
@@ -73,8 +72,6 @@ body {
   background:brown;
   top:108px;
   z-index:-10;
-  
-  
 }
 
 #typewriter {
@@ -610,7 +607,7 @@ body {
   box-shadow:0 3px #696969;
 }
 
-#credit{
+#credit {
   position:relative;
   top:110px;
   font-family:'Quicksand', sans-serif;
@@ -619,7 +616,7 @@ body {
   font-size:24px;
 }
 
-#credit a{
+#credit a {
   color:#779984;
   text-decoration:none;
 }
